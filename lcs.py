@@ -1,4 +1,4 @@
-from itertools import permutations
+from itertools import combinations
 
 def lcs(X, Y): 
     # find the length of the strings 
@@ -75,10 +75,10 @@ while(i<length):
 z=merge(y,x)
 #print(z)
 
-perm = permutations(z, 2) 
+comb = combinations(z, 2) 
   
-# Print the obtained permutations 
-for i in list(perm): 
+# Print the obtained combinations
+for i in list(comb): 
     #print(i)
 	res = [list(ele) for ele in i]
 	g,h=split_list(res)
