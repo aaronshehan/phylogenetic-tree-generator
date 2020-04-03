@@ -5,6 +5,7 @@ https://github.com/SupriyaL/Hierarchical-Clustering/blob/master/Preprocess.py'''
 
 
 import time
+import sys
 import numpy as np
 
 
@@ -58,7 +59,7 @@ def preprocess():
 """
 Stores the distance matrix in a .npy file
 """
-f = open("tulp3_relatives.txt", "r").read()
+f = open(sys.argv[1], "r").read()
 lines = f.splitlines()
 lines=list(filter(lambda x: (x != ''), lines)) 
 seq = dict()
