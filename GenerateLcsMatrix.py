@@ -71,5 +71,5 @@ print("Function is reading input file please wait...\t" + str(time.time() - star
 dist = np.zeros(shape=(count + 1, count + 1))
 start = time.time()
 a = distance_matrix()
-print("Distance Matrix Calculation is done! The results are in PyhlogeneticTreePicture.png\t" + str(time.time() - start))
+print("Distance Matrix Calculation is done!" + str(time.time() - start))
 np.save('distance_matrix.npy', a)
