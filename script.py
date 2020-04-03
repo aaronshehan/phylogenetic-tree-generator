@@ -1,5 +1,5 @@
 import os
 import sys
 
-os.system('GenerateLcsMatrix.py ' + sys.argv[1])
-os.system('GenerateTree.py')
+os.system('python3 GenerateLcsMatrix.py ' + sys.argv[1])
+os.system('python3 GenerateTree.py')
