@@ -13,7 +13,7 @@ https://github.com/SupriyaL/Hierarchical-Clustering/blob/master/code_1.py
 
 
 1) The LCS code is provided in a file called lcs.py
-2) To test lcs.py, one must pass in a command line argument that represents the file name that is be read from.
+2) To test lcs.py, one must pass in a command line argument that represents the file name that is being read from.
     To execute lcs.py:
         python3 lcs.py <filename>
 3) There are two programs utilized to generate the phylogenetic tree: GenerateTree.py and GenerateLcsMatrix.py. A python script called script.py is provided to run these programs. The filename containing the protein sequences must be passed in as a command line argument.
