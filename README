@@ -1,7 +1,7 @@
 Aaron Shehan
 Het Patel
 
-Our source for lcs is: 
+Our source for lcs.py and lcs function calls in our other files is: 
 https://www.geeksforgeeks.org/longest-common-substring-dp-29/
 
 Our source for the generateLcsMatrix.py file is:
