@@ -141,7 +141,7 @@ for i in range(0, size):
 start = time.time()
 for k in range(0, size - 1):
     a = clust(a, size, k)
-print("Clustering function is working please wait....\t" + str(time.time() - start))
+print("Clustering function is working please wait....The results are in PyhlogeneticTreePicture.png\t" + str(time.time() - start))
 # Plot dendrogram
 names = [i for i in range(0, size)]
 plt.figure(figsize=(25, 25))
