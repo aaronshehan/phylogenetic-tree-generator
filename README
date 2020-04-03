@@ -1,0 +1,26 @@
+Aaron Shehan
+Het Patel
+
+Our source for lcs is: 
+https://www.geeksforgeeks.org/longest-common-substring-dp-29/
+
+Our source for the generateLcsMatrix.py file is:
+https://github.com/SupriyaL/Hierarchical-Clustering/blob/master/Preprocess.py
+
+Our source for the generateTree.py file is:
+https://github.com/SupriyaL/Hierarchical-Clustering/blob/master/code_1.py
+
+
+
+1) The LCS code is provided in a file called lcs.py
+2) To test lcs.py, one must pass in a command line argument that represents the file name that is be read from.
+    To execute lcs.py:
+        python3 lcs.py <filename>
+3) There are two programs utilized to generate the phylogenetic tree: GenerateTree.py and GenerateLcsMatrix.py. A python script called script.py is provided to run these programs. The filename containing the protein sequences must be passed in as a command line argument.
+  To execute script.py:
+    python3 script.py <filename>
+  
+The phylogenetic tree that is generated is contained in a file called       PyhlogeneticTreePicture.png.
+  
+4) A pdf is provided that compares our tree with the tree that was generated with https://www.ebi.ac.uk/Tools/msa/clustalo/.
+
