@@ -1,3 +1,5 @@
+'''Our source for the generateLcsMatrix.py file is:
+https://github.com/SupriyaL/Hierarchical-Clustering/blob/master/Preprocess.py'''
 import matplotlib
 matplotlib.use('Agg')
 from scipy.cluster import hierarchy
