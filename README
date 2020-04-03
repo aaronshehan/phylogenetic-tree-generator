@@ -20,7 +20,7 @@ https://github.com/SupriyaL/Hierarchical-Clustering/blob/master/code_1.py
   To execute script.py:
     python script.py <filename>
   
-The phylogenetic tree that is generated is contained in a file called       PyhlogeneticTreePicture.png.
+The phylogenetic tree that is generated is contained in a file called PyhlogeneticTreePicture.png.
   
 4) A pdf is provided that compares our tree with the tree that was generated with https://www.ebi.ac.uk/Tools/msa/clustalo/.
 
