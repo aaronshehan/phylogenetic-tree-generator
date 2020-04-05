@@ -2,9 +2,9 @@ import re
 import sys
 from itertools import combinations
 
-#function to read the input file, takes filename as the parameter
+#function to read the input file, takes file name as the parameter
 def readFile(filename):
-    with open(filename, 'r') as f:	#open the inputfile
+    with open(filename, 'r') as f:	#open the input file
         lines = f.readlines()	#reaad the lines
 
     names = []	#make a list of names
