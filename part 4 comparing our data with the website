@@ -1,0 +1,3 @@
+Based on the image in PyhlogeneticTreePicture.png and the image the website has, we concluded that our
+combination of lcs and agglomerative clustering is extremly accurate beacuse our Phylogentic Tree is
+identical to the one found on  https://www.ebi.ac.uk/Tools/msa/clustalo/” when using the input file "tulp3relatives.txt"
