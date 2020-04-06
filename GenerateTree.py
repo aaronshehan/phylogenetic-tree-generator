@@ -46,8 +46,8 @@ output:	returns the modified distance matrix
 #function to make groupings based on lcs values, this function takes in the distance matrix from GenerateLcsMatrix.py
 def clust(a, size, k):
     min = 1000000.0 #set treshold value for min
-    m = 16  #set m=number of protein sequences
-    n = 16 #set n=number of protein sequences
+    m = (len(a))  #set m=number of protein sequences
+    n = (len(a)) #set n=number of protein sequences
     for i in range(0, size - 1): #iterate over size of matrix - 1
         for j in range(1, size): #iterate over size of matrix
             if i < j: #if i is less than j
