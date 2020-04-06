@@ -1,3 +1,7 @@
+'''Our source for lcs is:
+https://www.geeksforgeeks.org/longest-common-substring-dp-29/'''
+
+
 import re
 import sys
 from itertools import combinations
