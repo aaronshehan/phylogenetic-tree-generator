@@ -1,0 +1,15 @@
+Our algorithm is seprated into two parts.
+The first part computes the Distance Matrix.
+The second part computes the Phylogentic Tree.
+
+For the first part we read the input file and store the data using the preprocess function. 
+Then using the data we have we compute the LCS for each sequence to every other sequence using the distance_matrix function.
+We store this LCS data inside of a distance matrix which is a numpy array which is then stored into a file called distance_matrix.npy.
+We will then use this file for our second part.
+
+For the second part we load the distance_matrix.npy files data.
+We process this data and use the clust function to perfrom what is know as agglomerative clustering.
+agglomerative clustering is a bottom up approach of grouping data.
+Once our data is grouped correctly, we pass this data to the augmented_dendrogram function.
+The augmented_dendrogram function uses pythons libraries scipy and matplotlib.pyplot to plot the data.
+Once the data is plotted it is stored in a file called PyhlogeneticTreePicture.png which shows the image of the phylogenetic tree that is created.
